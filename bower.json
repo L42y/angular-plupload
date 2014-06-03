@@ -1,0 +1,21 @@
+{
+  "name": "angular-plupload",
+  "version": "0.1.0",
+  "authors": [
+    "L42y <423300@gmail.com>"
+  ],
+  "description": "Plupload as an AngularJS component",
+  "main": "angular-plupload.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "WTFPL",
+  "homepage": "https://github.com/L42y/angular-plupload",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
