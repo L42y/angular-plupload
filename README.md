@@ -3,8 +3,9 @@
 ## Installation
 
 1. `bower install --save L42y/angular-plupload`
-2. including `angular-plupload.js` script file provided by this component into your application
-3. add `l42y.plupload` as a module dependency to your application
+2. including script file provided by `plupload` component into your application
+3. including `angular-plupload.js` script file provided by this component into your application
+4. add `l42y.plupload` as a module dependency to your application
 
 ## Usage
 
