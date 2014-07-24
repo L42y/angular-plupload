@@ -1,4 +1,5 @@
-angular.module('l42y.plupload', []).directive('plupload', function (
+angular.module('l42y.plupload', [
+]).directive('plupload', function (
 ) {
   return {
     scope: true,
