@@ -27,7 +27,14 @@ angular.module('l42y.plupload', [
   return {
     require: '^plupload',
     link: function ($scope, $element, $attrs, $plupload) {
-      $plupload.uploader.settings.drop_element = $element[0];
+      var deregister = $scope.$watch(function getPluploadUploader () {
+        return $plupload.uploader;
+      }, function (uploader) {
+        if (uploader) {
+          $plupload.uploader.settings.drop_element = $element[0];
+          deregister();
+        }
+      });
     }
   };
 });
